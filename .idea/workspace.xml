@@ -20,8 +20,8 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="507" column="24" selection-start-line="507" selection-start-column="24" selection-end-line="507" selection-end-column="24" />
+            <state relative-caret-position="283">
+              <caret line="534" column="2" selection-start-line="534" selection-start-column="2" selection-end-line="534" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -71,7 +71,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="125" />
     <option name="y" value="106" />
     <option name="width" value="3306" />
@@ -215,12 +215,12 @@
       <workItem from="1529069136845" duration="199000" />
       <workItem from="1529113621419" duration="2124000" />
       <workItem from="1529115973147" duration="1650000" />
-      <workItem from="1529275576236" duration="5592000" />
+      <workItem from="1529275576236" duration="5761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16915000" />
+    <option name="totallyTimeSpent" value="17084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +265,7 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Flutter Inspector" order="3" visible="true" weight="0.23400854" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.23400854" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="507" column="24" selection-start-line="507" selection-start-column="24" selection-end-line="507" selection-end-column="24" />
+        <state relative-caret-position="283">
+          <caret line="534" column="2" selection-start-line="534" selection-start-column="2" selection-end-line="534" selection-end-column="2" />
         </state>
       </provider>
     </entry>
