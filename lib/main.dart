@@ -443,42 +443,81 @@ import 'package:flutter/material.dart';
 //  );
 //}
 
+//class LayoutDemo extends StatelessWidget {
+//
+//  @override
+//  Widget build(BuildContext context) {
+//    return new Scaffold(
+//      appBar: new AppBar(
+//        title: new Text('水平方向布局'),
+//      ),
+//      body: new Row(//Column 垂直
+//          children: <Widget>[
+//            new RaisedButton(
+//              onPressed: () {
+//                print('点击红色按钮事件');
+//              },
+//              color: const Color(0xffcc0000),
+//              child: new Text('红色按钮'),
+//            ),
+//            new Flexible(
+//              flex: 1,
+//              fit: FlexFit.tight,
+//              child: new RaisedButton(
+//                onPressed: () {
+//                  print('yellow button');
+//                },
+//                color: const Color(0xfff1c232),
+//                child: new Text('黄色按钮'),
+//              ),
+//            ),
+//            new RaisedButton(
+//              onPressed: () {
+//                print('点击粉色按钮事件');
+//              },
+//              color: const Color(0xffea9999),
+//              child: new Text('粉色按钮'),
+//            ),
+//          ]
+//      ),
+//    );
+//  }
+//}
+//void main() {
+//  runApp(
+//    new MaterialApp(
+//      title: 'Flutter教程',
+//      home: new LayoutDemo(),
+//    ),
+//  );
+//}
+
 class LayoutDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('水平方向布局'),
+        title: new Text('层叠定位布局'),
       ),
-      body: new Row(//Column 垂直
-          children: <Widget>[
-            new RaisedButton(
-              onPressed: () {
-                print('点击红色按钮事件');
-              },
-              color: const Color(0xffcc0000),
-              child: new Text('红色按钮'),
-            ),
-            new Flexible(
-              flex: 1,
-              fit: FlexFit.tight,
-              child: new RaisedButton(
-                onPressed: () {
-                  print('yellow button');
-                },
-                color: const Color(0xfff1c232),
-                child: new Text('黄色按钮'),
+      body:new Center(
+        child: new Stack(
+            children: <Widget>[
+              new Image.network('http://img2.cxtuku.com/00/13/12/s97783873391.jpg'),
+              new Positioned(
+                left: 35.0,
+                right: 35.0,
+                top: 45.0,
+                child: new Text(
+                  'Whatever is worth doing is worth doing well. ๑•ิ.•ั๑',
+                  style: new TextStyle(
+                    fontSize: 20.0,
+                    fontFamily: 'serif',
+                  ),
+                ),
               ),
-            ),
-            new RaisedButton(
-              onPressed: () {
-                print('点击粉色按钮事件');
-              },
-              color: const Color(0xffea9999),
-              child: new Text('粉色按钮'),
-            ),
-          ]
+            ]
+        ),
       ),
     );
   }
