@@ -649,31 +649,55 @@ import 'package:flutter/material.dart';
 //  );
 //}
 
+//class LayoutDemo extends StatelessWidget {
+//
+//  @override
+//  Widget build(BuildContext context) {
+//    return new Scaffold(
+//      appBar: new AppBar(
+//        title: new Text('对齐'),
+//      ),
+//      body: new Stack(
+//          children: <Widget>[
+//            new Align(
+////              alignment: new FractionalOffset(0.0, 0.0),
+//              alignment: FractionalOffset.topLeft,
+//              child: new Image.network('http://up.qqjia.com/z/25/tu32710_10.jpg'),
+//            ),
+//            new Align(
+//              alignment: FractionalOffset.bottomRight,
+//              child: new Image.network('http://up.qqjia.com/z/25/tu32710_11.jpg'),
+//            ),
+//          ]
+//      ),
+//    );
+//  }
+//}
+//
+//void main() {
+//  runApp(
+//    new MaterialApp(
+//      title: 'Flutter教程',
+//      home: new LayoutDemo(),
+//    ),
+//  );
+//}
+
 class LayoutDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('对齐'),
+        title: new Text('填充'),
       ),
-      body: new Stack(
-          children: <Widget>[
-            new Align(
-//              alignment: new FractionalOffset(0.0, 0.0),
-              alignment: FractionalOffset.topLeft,
-              child: new Image.network('http://up.qqjia.com/z/25/tu32710_10.jpg'),
-            ),
-            new Align(
-              alignment: FractionalOffset.bottomRight,
-              child: new Image.network('http://up.qqjia.com/z/25/tu32710_11.jpg'),
-            ),
-          ]
+      body: new Padding(
+        padding: const EdgeInsets.all(50.0),
+        child: new Image.network('http://up.qqjia.com/z/25/tu32710_4.jpg'),
       ),
     );
   }
 }
-
 void main() {
   runApp(
     new MaterialApp(
