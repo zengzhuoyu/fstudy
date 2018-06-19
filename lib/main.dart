@@ -683,21 +683,81 @@ import 'package:flutter/material.dart';
 //  );
 //}
 
+//class LayoutDemo extends StatelessWidget {
+//
+//  @override
+//  Widget build(BuildContext context) {
+//    return new Scaffold(
+//      appBar: new AppBar(
+//        title: new Text('填充'),
+//      ),
+//      body: new Padding(
+//        padding: const EdgeInsets.all(50.0),
+//        child: new Image.network('http://up.qqjia.com/z/25/tu32710_4.jpg'),
+//      ),
+//    );
+//  }
+//}
+//
+//void main() {
+//  runApp(
+//    new MaterialApp(
+//      title: 'Flutter教程',
+//      home: new LayoutDemo(),
+//    ),
+//  );
+//}
+
+//class LayoutDemo extends StatelessWidget {
+//
+//  @override
+//  Widget build(BuildContext context) {
+//    return new Scaffold(
+//      appBar: new AppBar(
+//        title: new Text('强制大小'),
+//      ),
+//      body: new SizedBox(
+//        width: 250.0,
+//        height: 250.0,
+//        child: new Container(
+//          decoration: new BoxDecoration(
+//            color: Colors.lightBlueAccent[100],
+//          ),
+//        ),
+//      ),
+//    );
+//  }
+//}
+//
+//void main() {
+//  runApp(
+//    new MaterialApp(
+//      title: 'Flutter教程',
+//      home: new LayoutDemo(),
+//    ),
+//  );
+//}
+
 class LayoutDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('填充'),
+        title: new Text('强制比例'),
       ),
-      body: new Padding(
-        padding: const EdgeInsets.all(50.0),
-        child: new Image.network('http://up.qqjia.com/z/25/tu32710_4.jpg'),
+      body: new AspectRatio(
+        aspectRatio: 3.0 / 2.0,
+        child: new Container(
+          decoration: new BoxDecoration(
+            color: Colors.lightBlueAccent[100],
+          ),
+        ),
       ),
     );
   }
 }
+
 void main() {
   runApp(
     new MaterialApp(

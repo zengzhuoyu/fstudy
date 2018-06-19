@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a2ae206-96d0-4067-87d5-38d90b1840f6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="686" column="11" lean-forward="true" selection-start-line="686" selection-start-column="11" selection-end-line="686" selection-end-column="11" />
+            <state relative-caret-position="430">
+              <caret line="749" column="28" selection-start-line="749" selection-start-column="28" selection-end-line="749" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -72,7 +71,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="125" />
     <option name="y" value="106" />
     <option name="width" value="3306" />
@@ -217,12 +216,12 @@
       <workItem from="1529113621419" duration="2124000" />
       <workItem from="1529115973147" duration="1650000" />
       <workItem from="1529275576236" duration="6274000" />
-      <workItem from="1529368714785" duration="869000" />
+      <workItem from="1529368714785" duration="1192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18466000" />
+    <option name="totallyTimeSpent" value="18789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="686" column="11" lean-forward="true" selection-start-line="686" selection-start-column="11" selection-end-line="686" selection-end-column="11" />
+        <state relative-caret-position="430">
+          <caret line="749" column="28" selection-start-line="749" selection-start-column="28" selection-end-line="749" selection-end-column="28" />
         </state>
       </provider>
     </entry>
