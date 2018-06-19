@@ -20,8 +20,8 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="749" column="28" selection-start-line="749" selection-start-column="28" selection-end-line="749" selection-end-column="28" />
+            <state relative-caret-position="640">
+              <caret line="793" lean-forward="true" selection-start-line="793" selection-end-line="793" />
             </state>
           </provider>
         </entry>
@@ -216,12 +216,12 @@
       <workItem from="1529113621419" duration="2124000" />
       <workItem from="1529115973147" duration="1650000" />
       <workItem from="1529275576236" duration="6274000" />
-      <workItem from="1529368714785" duration="1192000" />
+      <workItem from="1529368714785" duration="1284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18789000" />
+    <option name="totallyTimeSpent" value="18881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="749" column="28" selection-start-line="749" selection-start-column="28" selection-end-line="749" selection-end-column="28" />
+        <state relative-caret-position="640">
+          <caret line="793" lean-forward="true" selection-start-line="793" selection-end-line="793" />
         </state>
       </provider>
     </entry>
